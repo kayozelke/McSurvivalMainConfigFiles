@@ -28,7 +28,7 @@ spawn-limits:
   water-ambient: 5
   water-underground-creature: 5
   axolotls: 5
-  ambient: 15
+  ambient: 1
 chunk-gc:
   period-in-ticks: 400
 ticks-per:

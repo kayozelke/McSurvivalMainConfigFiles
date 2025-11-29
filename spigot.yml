@@ -56,10 +56,10 @@ world-settings:
       # item: 0.5
       # exp: -1.0
       item: 2.5
-      exp: 3
+      exp: 4
     mob-spawn-range: 6
     item-despawn-rate: 6000
-    arrow-despawn-rate: 1200
+    arrow-despawn-rate: 300
     trident-despawn-rate: 1200
     zombie-aggressive-towards-villager: true
     nerf-spawner-mobs: false
@@ -92,26 +92,26 @@ world-settings:
       glowberry-modifier: 100
       pitcherplant-modifier: 100
     entity-activation-range:
-      animals: 32
-      monsters: 32
+      animals: 16
+      monsters: 24
       raiders: 48
-      misc: 16
-      water: 16
+      misc: 12
+      water: 12
       villagers: 32
       flying-monsters: 32
       wake-up-inactive:
-        animals-max-per-tick: 4
+        animals-max-per-tick: 2
         animals-every: 1200
-        animals-for: 100
-        monsters-max-per-tick: 8
+        animals-for: 40
+        monsters-max-per-tick: 4
         monsters-every: 400
-        monsters-for: 100
-        villagers-max-per-tick: 4
+        monsters-for: 60
+        villagers-max-per-tick: 1
         villagers-every: 600
-        villagers-for: 100
-        flying-monsters-max-per-tick: 8
+        villagers-for: 20
+        flying-monsters-max-per-tick: 1
         flying-monsters-every: 200
-        flying-monsters-for: 100
+        flying-monsters-for: 60
       villagers-work-immunity-after: 100
       villagers-work-immunity-for: 20
       villagers-active-for-panic: true
