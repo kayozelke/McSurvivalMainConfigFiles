@@ -306,7 +306,7 @@ world-settings:
         absorbs-lava: false
         absorbs-water-from-mud: false
       stonecutter:
-        damage: 0.0
+        damage: 0.5
       turtle_egg:
         break-from-exp-orbs: false
         break-from-items: false
@@ -1806,8 +1806,8 @@ world-settings:
         step-height: 0.0
         set-name-visible-when-placing-with-custom-name: false
         fix-nametags: false
-        can-movement-tick: true
-        can-move-in-water: true
+        can-movement-tick: false
+        can-move-in-water: false
         can-move-in-water-over-fence: true
         place-with-arms-visible: true
       arrow:
@@ -1873,7 +1873,7 @@ world-settings:
           creative-cooldown: 20
           endermite-spawn-chance: 0.05000000074505806
         glow_berries:
-          eat-glow-duration: 0
+          eat-glow-duration: 360
         shulker_box:
           drop-contents-when-destroyed: true
         compass:
@@ -1970,10 +1970,10 @@ world-settings:
           # enabled: false
           enabled: true
           step-height: 1.0
-          hop-boost: 0.5
+          hop-boost: 0.6
           fall-damage: true
-          # base-speed: 0.1
-          base-speed: 0.6
+          base-speed: 0.1
+          # base-speed: 0.6
           block-speed:
             # grass_block: 0.3
             # stone: 0.5
