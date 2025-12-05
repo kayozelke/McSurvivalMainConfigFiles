@@ -133,10 +133,10 @@ settings:
       reverse-bubble-column-flow: false
   enchantment:
     anvil:
-      allow-inapplicable-enchants: true
-      allow-incompatible-enchants: true
-      allow-higher-enchants-levels: true
-      replace-incompatible-enchants: true
+      allow-inapplicable-enchants: false
+      allow-incompatible-enchants: false
+      allow-higher-enchants-levels: false
+      replace-incompatible-enchants: false
     allow-unsafe-enchant-command: false
     clamp-levels: true
   entity:
